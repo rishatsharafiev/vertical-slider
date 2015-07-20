@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+}
+
+
+html, body, .wrapper, .main, .page {
+	height: 100%;
+	width: 100%;
+}
+
+.wrapper {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.main {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	top: 0%;
+	-webkit-transition: top 1s;
+	-moz-transition: top 1s;
+	-o-transition: top 1s;
+	transition: top 1s;
+}
+
+.page {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.active {
+	
+}
+
+.page-1 {
+	background-color: red;
+}
+
+.page-2 {
+	background-color: green;
+}
+
+.page-3 {
+	background-color: brown;
+}
+
+.page-4 {
+	background-color: blue;
+}
+
+.page > h1 {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	font-size: 4.6em;
+	color: #fff;
+}
