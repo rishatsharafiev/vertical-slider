@@ -94,4 +94,5 @@ html, body, .wrapper, .main, .page {
 
 .radio--active, .radio:hover {
 	background-color: #1367FF;
+	cursor: pointer;
 }
