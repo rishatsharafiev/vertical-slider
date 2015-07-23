@@ -34,7 +34,7 @@ html, body, .wrapper, .main, .page {
 }
 
 .active {
-	
+
 }
 
 .page-1 {
@@ -62,4 +62,36 @@ html, body, .wrapper, .main, .page {
 	transform: translateY(-50%);
 	font-size: 4.6em;
 	color: #fff;
+}
+
+.radious {
+	position: fixed;
+	right: 10px;
+	top: 50%;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+
+.radio {
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background-color: #A1FFE2;
+	height: 18px;
+	width: 18px;
+	margin: 0;
+	margin-top: 3px;
+	padding: 0;
+	border: 1px solid black;
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-o-transition: background-color 1s;
+	transition: background-color 1s;
+}
+
+.radio--active, .radio:hover {
+	background-color: #1367FF;
 }
