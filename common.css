@@ -53,6 +53,10 @@ html, body, .wrapper, .main, .page {
 	background-color: blue;
 }
 
+.page-5 {
+	background-color: yellow;
+}
+
 .page > h1 {
 	text-align: center;
 	position: relative;
@@ -68,7 +72,7 @@ html, body, .wrapper, .main, .page {
 	position: fixed;
 	right: 10px;
 	top: 50%;
-	margin-top: -0.625em;
+	margin-top: -10em !important;
 	text-decoration: none;
 	margin: 0;
 	padding: 0;
